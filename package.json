@@ -22,7 +22,7 @@
     "lint": "npm run lint:js & npm run lint:css",
     "lint:watch": "watch 'npm run lint' src",
     "prebuild": "test ! -d dist || rm -r dist; mkdir dist",
-    "build": "cp -r public/* dist && webpack",
+    "build": "cp -r public/* dist && webpack -p",
     "serve": "webpack-dev-server",
     "start": "npm run lint:watch & npm run serve"
   },
