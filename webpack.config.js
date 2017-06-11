@@ -44,6 +44,7 @@ module.exports = {
 		})
 	],
 	devServer: {
-		contentBase: path.resolve(cwd, 'public')
+		contentBase: path.resolve(cwd, 'public'),
+		historyApiFallback: true
 	}
 };

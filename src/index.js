@@ -1,3 +1,11 @@
-import foo from './foo/foo';
+import page from 'page';
+import about from './about/about';
 
-foo.render();
+// Register routes.
+page('/about', () => {
+	console.log('Displaying about page.');
+	about.render();
+});
+
+// Start the router.
+page.start();
