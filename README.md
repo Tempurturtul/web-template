@@ -11,3 +11,8 @@ This is a basic template for new web dev projects.
 - ES6+ support
 - Live-reloading dev server
 - Cache busting
+
+**TODO:**
+
+- Image minification
+- Testing framework
