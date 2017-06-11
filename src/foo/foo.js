@@ -1,9 +1,12 @@
 import './foo.css';
 
 const foo = {
-	render
+	render,
 };
 
+/**
+ * Renders the foo component.
+ */
 function render() {
 	document.getElementById('root').innerHTML = `<p class="foo">Hello!</p>`;
 }
