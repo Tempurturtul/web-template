@@ -24,11 +24,13 @@ module.exports = {
 			{
 				test: /\.css$/,
 				use: ExtractTextPlugin.extract({
-					use: 'css-loader'
+					use: {
+						loader: 'css-loader'
+					}
 				})
 			},
 			{
-				test: /\.(png|svg|jpg|gif)$/,
+				test: /\.(png|svg|jpe?g|gif)$/i,
 				use: {
 					loader: 'file-loader'
 				}
