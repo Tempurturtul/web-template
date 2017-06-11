@@ -40,7 +40,7 @@ module.exports = {
 	plugins: [
 		new ExtractTextPlugin('bundle.[chunkhash].css'),
 		new HTMLWebpackPlugin({
-			template: path.resolve(cwd, 'src/index.template.html')
+			template: path.resolve(cwd, 'public/index.template.html')
 		})
 	],
 	devServer: {
