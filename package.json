@@ -17,8 +17,8 @@
     "webpack-dev-server": "^2.4.5"
   },
   "scripts": {
-    "lint:js": "eslint src/**/*.js; exit 0",
-    "lint:css": "stylelint \"src/**/*.css\"; exit 0",
+    "lint:js": "eslint 'src/**/*.js'; exit 0",
+    "lint:css": "stylelint 'src/**/*.css'; exit 0",
     "lint": "npm run lint:js & npm run lint:css",
     "lint:watch": "watch 'npm run lint' src --wait=1",
     "prebuild": "test ! -d dist || rm -r dist; mkdir dist",
