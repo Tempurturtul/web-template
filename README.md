@@ -2,7 +2,7 @@
 
 This is a basic template for new web dev projects.
 
-**Currently includes:**
+**Includes:**
 
 - Linting of JS and CSS
 - Minification of JS and CSS
